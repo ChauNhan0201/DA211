@@ -20,7 +20,7 @@ class NavigationMenu extends Component<INavigationMenuState> {
         {this.shouldRenderMenu ? (
           <div className="NavigationMenu">
             <div className="Slogan">
-              <h1 style={{color: "white",margin:"center"}}>AHUHU COFFEE MANAGER </h1>
+              <h1 style={{color: "white",margin:"center"}}>BK COFFEE MANAGER </h1>
               <h3 style={{color: "white"}}>"Coffee - The Flavor Of Life"</h3>
             </div>
           </div>) : null}

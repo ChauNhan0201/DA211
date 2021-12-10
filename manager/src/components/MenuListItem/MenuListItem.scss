@@ -1,0 +1,37 @@
+.DishListItem {
+    &-details {
+      &.quantity {
+        flex: 1;
+      }
+  
+      &.target {
+        flex: 2;
+      }
+  
+      &.dish {
+        flex: 3;
+      }
+      &.rating{
+        flex: 4;
+      }
+      &.img{
+        width: 100px;
+        height: 95px;
+        flex: 5;
+        position: relative;
+       
+      }
+      &.btn{
+        flex: 6;
+        position: relative;
+        margin-left:100px
+     
+      }
+      &*{
+        background-color: #FFFAF7;
+      }
+    }
+  }
+
+
+ 

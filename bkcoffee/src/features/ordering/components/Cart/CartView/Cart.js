@@ -82,7 +82,7 @@ const Cart = (props) => {
       {nonemptyCart && 
       <LinkContainer to ='/payment'>
         <button className={classes.button} onClick={orderHandler && submitOrderHandler}>
-          Đặt hàng
+          Tiến hành thanh toán
         </button>
       </LinkContainer>
 

@@ -17,12 +17,12 @@ function Login() {
     e.preventDefault();
       if (input.name  == "admin" && input.pass  == "pass")
     {
-      window.location.href="http://localhost:3000/"
+      window.location.href="http://localhost:3000/ordering"
     }
      else  if (!input||(input.name !== "Thien" || input.pass !== "password"))
       setValid("Tài khoản hoặc mật khẩu không đúng!");
       
-    else  window.location.href="http://localhost:3000/"
+    else  window.location.href="http://localhost:3000/ordering"
   };
   return (
     <>

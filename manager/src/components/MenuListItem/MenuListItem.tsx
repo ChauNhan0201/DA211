@@ -49,7 +49,7 @@ class MenuListItem extends Component<IMenuListItemProps> {
           <ListItemText
             className="DishListItem-details dish"
             primary={dish.name}
-            secondary={this.state.counter > 10 ? `Abudant: ${dish.rest}` : `Almost Over: ${dish.rest} `}
+            secondary={this.state.counter > 5 ? `Abudant: ${dish.rest}` : `Almost Over: ${dish.rest} `}
           />
 
 
